@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
-const ai = new GoogleGenAI({apiKey:"AIzaSyD2MBzm1dHaXLUK6o1W2U6CIKkX7zomN5E"});
+const ai = new GoogleGenAI({apiKey:""});
 const umaSystemPrompt = `
 You are UMA, an empathetic, supportive, and highly knowledgeable maternal and child health guide. 
 Provide clear, accurate, and easy-to-understand information regarding pregnancy, postpartum care, and child development. 
