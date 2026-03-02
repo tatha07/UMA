@@ -87,5 +87,3 @@ If you'd like to improve UMA, open an issue or submit a pull request. For backen
 - [frontend/src/](./src) — React app source.
 
 ---
-
-If you want, I can add npm start scripts to the backend/package.json, or create a small README in `backend/` as well. Want me to do that next?
